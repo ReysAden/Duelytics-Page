@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Master Duelytics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">Master Duelytics</div>
+      <div class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#download" class="nav-link">Download</a>
+        <a href="#about" class="nav-link">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Carousel -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Master Duelytics</h1>
+      <p class="hero-subtitle">Track Your Performance and collaberate</p>
+      
+      <div class="carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="images/screenshot1.png" alt="Master Duelytics Screenshot 1" />
+          </div>
+          <div class="carousel-slide">
+            <img src="images/screenshot2.png" alt="Master Duelytics Screenshot 2" />
+          </div>
+          <div class="carousel-slide">
+            <img src="images/screenshot3.png" alt="Master Duelytics Screenshot 3" />
+          </div>
+        </div>
+        <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="carousel-btn next" onclick="changeSlide(1)">&#10095;</button>
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(0)"></span>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="download">
+    <div class="section-container">
+      <h2 class="section-title">Get Started</h2>
+      <p class="section-subtitle">Join our community and download Master Duelytics</p>
+      
+      <div class="download-steps">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Join Discord</h3>
+          <p>Join our Discord server to get access and stay updated</p>
+          <a href="https://discord.gg/fwzhdrVk" class="btn btn-discord" target="_blank">
+            Join Discord Server
+          </a>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Download App</h3>
+          <p>Download the latest version of Master Duelytics for Windows</p>
+          <a href="#" class="btn btn-download" id="downloadBtn">
+            Download for Windows
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="section-container">
+      <h2 class="section-title">About Master Duelytics</h2>
+      <div class="about-content">
+        <p class="about-description">
+WILL FILL OUT SOON
+        </p>
+        
+        <div class="features-grid">
+          <div class="feature">
+            <h3>Performance Tracking</h3>
+            <p>Track your wins, losses, and ranking progress throughout Duelist-Cups, Rated and Ladder</p>
+          </div>
+          <div class="feature">
+            <h3>Deck Analytics</h3>
+            <p>Analyze deck performance and matchup statistics in detail</p>
+          </div>
+          <div class="feature">
+            <h3>Feature 3</h3>
+            <p>Feature 3 description</p>
+          </div>
+          <div class="feature">
+            <h3>feature 4</h3>
+            <p>Feature 4 description</p>
+          </div>
+          <div class="feature">
+            <h3>Transparent Overlay</h3>
+            <p>Submit duels quickly with a convenient overlay feature</p>
+          </div>
+          <div class="feature">
+            <h3>Multi-language</h3>
+            <p>Support for English, Spanish, German, Japanese, Korean, and Chinese</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2024 Master Duelytics. All rights reserved.</p>
+      <p>Not affiliated with Konami or Yu-Gi-Oh! Master Duel WHATSOEVER.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
