@@ -36,7 +36,7 @@ setInterval(() => {
 // Download button handler
 document.getElementById('downloadBtn')?.addEventListener('click', (e) => {
   e.preventDefault();
-  window.location.href = 'https://github.com/BearBloom/Duelytics-Page/releases/download/v1.0.0/Duelytics.Setup.1.0.0.exe';
+  window.location.href = 'https://github.com/ReysAden/duelytics-app/releases/download/v1.0.4/Duelytics.Setup.1.0.4.exe';
 });
 
 // Smooth scroll for navigation links
